@@ -1,134 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florería La Belle Fleur</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accesorios de Halloween</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <!-- Navbar Barra de Navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class ="container">
-            <a class="navbar-brand" href="#">
-                <i class="fas fa-leaf"></i> La Belle Fleur
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-        </div>
 
-    <div class="navbar content" id="navbarNav">
-        <ul class="navbar-nav ml">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Carrito <i class="fas fa-shopping-cart"></i></a>
-            </li>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-ghost"></i> Halloween Shop
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
         </ul>
-
+      </div>
     </div>
 </nav>
 
-  <!-- Header -->
-  <header class="jumbotron  jumbotron-fluid text-center bg-light text-dark">
-       <div class="conteiner">
-        <h1>Florería La Belle Fleur</h1>
-        <p>La mejor floreria de la ciudad</p>
-       </div>
-  </header>
+<!-- Header -->
+<header class="jumbotron jumbotron-fluid text-center">
+  <div class="container">
+    <h1 class="display-4 font-weight-bold">Bienvenido a Halloween Shop</h1>
+    <p class="lead">¡Encuentra los accesorios más escalofriantes para tu celebración!</p>
+  </div>
+</header>
 
-    <!-- Acerca de -->
-    <section id="about" class="container">
-        <h2 class="mb-4">Acerca de Nosotros</h2>
-        <p> <strong> La Belle Fleur </strong>  es una floreria que ofrece una amplia variedad de flores
-            nos especializamos en crear arreglos florales únicos y personalizados
-            para todas las ocasiones. Con más de 20 años de experiencia, nuestras flores frescas traen alegría, amor y vida a 
-            cada evento o celebración. Valoramos la calidad y trabajamos arduamente para brindar un servicio excepcional a 
-            nuestros clientes.
-    </section>
-
-    <!-- Atributos -->
-
-    <div class="row mt-4">
-        <div class="col-md-4">
-            <div class="about-box p-4 rounded shadow-sm">
-                <i class="fas fa-seedling fa-3x mb-3"></i>
-                <h5>Calidad y Frescura</h5>
-                <p>Nuestras flores son frescas y de alta calidad, garantizar frescura y duracion</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="about-box p-4 rounded shadow-sm">
-                <i class="fas fa-leaf fa-3x mb-3"></i>
-                <h5>Sostenibilidad</h5>
-                <p>Nos preocupamos por el medio ambiente y trabajamos con prácticas sostenibles.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="about-box p-4 rounder shadow-sm">
-                <i class="fas fa-heart fa-3x"></i>
-                <h5>Amor y Dedicación</h5>
-                <p>Cada arreglo floral esta preparado con amor y dedicacion para cada cliente.</p>
-            </div>
-        </div>
+<!-- Acerca de -->
+<section id="about" class="container my-5 text-center">
+  <h2 class="mb-4">¿Quiénes somos?</h2>
+  <p class="lead text-muted">
+    En <strong>Halloween Shop</strong> nos especializamos en traer los accesorios más espeluznantes para hacer de tu
+    Halloween una experiencia inolvidable. Con nosotros encontrarás máscaras, disfraces y decoraciones perfectas para la temporada.
+  </p>
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="about-box p-4 rounded shadow-sm">
+        <i class="fas fa-pumpkin fa-3x mb-3"></i>
+        <h5>Accesorios Unicos</h5>
+        <p>Productos exclusivos que no encontrarás en otro lugar.</p>
+      </div>
     </div>
+    <div class="col-md-4">
+      <div class="about-box p-4 rounded shadow-sm">
+        <i class="fas fa-skull-crossbones fa-3x mb-3"></i>
+        <h5>Temática Perfecta</h5>
+        <p>Transforma cualquier espacio en un escenario aterrador.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="about-box p-4 rounded shadow-sm">
+        <i class="fas fa-candy-cane fa-3x mb-3"></i>
+        <h5>Diversión Garantizada</h5>
+        <p>¡Celebra Halloween como nunca antes lo habías hecho!</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Productos -->
 <section class="container my-5">
-    <h2 class="text-center mb-4">Nuestros Productos</h2>
-    <div class="row">
-      <!-- Producto 1 -->
-      <div class="col-md-4">
-        <div class="card product-card shadow-sm animate-product">
-          <img src="imagenes/rosas.png" class="card-img-top" alt="Ramo de Rosas">
-          <div class="card-body">
-            <h5 class="card-title">Ramo de Rosas</h5>
-            <p class="card-text">Hermoso ramo de rosas rojas.</p>
-            <a href="#" class="btn btn-primary btn-block">Agregar al carrito</a>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 2 -->
-      <div class="col-md-4">
-        <div class="card product-card shadow-sm animate-product">
-          <img src="imagenes/lirios.png" class="card-img-top" alt="Arreglo de Lirios">
-          <div class="card-body">
-            <h5 class="card-title">Arreglo de Lirios</h5>
-            <p class="card-text">Lirios frescos para toda ocasión.</p>
-            <a href="#" class="btn btn-primary btn-block">Agregar al carrito</a>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 3 -->
-      <div class="col-md-4">
-        <div class="card product-card shadow-sm animate-product">
-          <img src="imagenes/tulipanes.png" class="card-img-top" alt="tulipanes">
-          <div class="card-body">
-            <h5 class="card-title">Centro de Mesa Floral</h5>
-            <p class="card-text">Perfecto para eventos y celebraciones.</p>
-            <a href="#" class="btn btn-primary btn-block">Agregar al carrito</a>
-          </div>
+  <h2 class="text-center mb-4">Nuestros Productos</h2>
+  <div class="row">
+    <!-- Producto 1 -->
+    <div class="col-md-4">
+      <div class="card product-card shadow-sm animate-product">
+        <img src="img/hallowen1.png" class="card-img-top" alt="Máscara de Halloween">
+        <div class="card-body">
+          <h5 class="card-title">Máscara de Fantasma</h5>
+          <p class="card-text">Asusta a todos con esta máscara aterradora.</p>
+          <a href="#" class="btn btn-primary btn-block">Agregar al carrito</a>
         </div>
       </div>
     </div>
-  </section>
+    <!-- Producto 2 -->
+    <div class="col-md-4">
+      <div class="card product-card shadow-sm animate-product">
+        <img src="img/hallowen2.png" class="card-img-top" alt="Decoración de Halloween">
+        <div class="card-body">
+          <h5 class="card-title">Guirnalda de Calabazas</h5>
+          <p class="card-text">Perfecta para decorar cualquier rincón.</p>
+          <a href="#" class="btn btn-primary btn-block">Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+    <!-- Producto 3 -->
+    <div class="col-md-4">
+      <div class="card product-card shadow-sm animate-product">
+        <img src="img/hallowen5.png" class="card-img-top" alt="Disfraz de Halloween">
+        <div class="card-body">
+          <h5 class="card-title">Disfraz de Picapiedras</h5>
+          <p class="card-text">¡Ideal para causar impresión con!</p>
+          <a href="#" class="btn btn-primary btn-block">Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Contacto -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Contáctanos</h2>
+  <form>
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+    </div>
+    <div class="form-group">
+      <label for="email">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+    </div>
+    <div class="form-group">
+      <label for="mensaje">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p>Síguenos en nuestras redes sociales</p>
+    <a href="#" class="text-white mr-3"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="#" class="text-white mr-3"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+  </div>
+  <p class="mt-3">&copy; 2024 Halloween Shop. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

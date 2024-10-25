@@ -1,0 +1,56 @@
+/* Configuración general */
+body {
+    font-family: 'Poppins', sans-serif; /* Cambia 'Poppins' por la fuente que elijas */
+    background-color: #000000; /* Fondo negro */
+    color: #fffefe; /* Texto blanco */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000;
+}
+
+/* Sección Acerca de */
+.about-box {
+    background-color: #2c2c2c;
+    transition: transform 0.2s; /* Transición suave */
+}
+.about-box:hover {
+    transform: scale(1.05); /* Aumentar el tamaño al pasar el ratón */
+}
+
+/* Productos */
+.product-card {
+    background-color: #2c2c2c;
+    color: white;
+    margin-bottom: 20px; /* Espaciado entre productos */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transición suave */
+}
+.product-card:hover {
+    transform: scale(1.05); /* Aumentar el tamaño al pasar el ratón */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+}
+
+/* Formulario de Contacto */
+.form-control {
+    border-radius: 0; /* Bordes rectos */
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url('img/halloween-bg.jpg');
+    background-size: cover;
+    color: #ff7518; /* Naranja */
+    font-family: 'Creepster', cursive;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #ff7518;
+    border: none;
+}
